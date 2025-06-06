@@ -2,12 +2,13 @@
 
 This document outlines the high-level steps for creating a browser-based game inspired by **Realm of the Mad God** using **Phaser**.
 
+This project is intended as a quick hobby experiment. To keep costs at zero, the client will be hosted for free (for example via GitHub Pages) and any multiplayer server can run locally or on a free-tier service.
 ## 1. Project Setup
 
 - **Framework**: Use Phaser for rendering and game logic.
 - **Directory Structure**:
   - `client/` – browser code (Phaser, assets, UI).
-  - `server/` – Node.js server handling multiplayer logic.
+  - `server/` – optional Node.js server for multiplayer; run locally or on a free-tier service if needed.
   - `docs/` – documentation and planning notes.
 - **Build/Tooling**: Consider bundlers like Vite or Webpack for the client. Use npm scripts for building and running.
 - **Version Control**: All code stored in this Git repository.
@@ -34,7 +35,7 @@ This document outlines the high-level steps for creating a browser-based game in
 ## 5. Testing & Deployment
 
 - Host the client via a static site (e.g., GitHub Pages).
-- Deploy server to a small cloud instance or container.
+- If multiplayer is used, run the server locally or explore free hosting tiers.
 - Continuously test the multiplayer experience with friends and gather feedback.
 
 ---
