@@ -3,6 +3,7 @@
 This document outlines the high-level steps for creating a browser-based game inspired by **Realm of the Mad God** using **Phaser**.
 
 This project is intended as a quick hobby experiment. To keep costs at zero, the client will be hosted for free (for example via GitHub Pages) and any multiplayer server can run locally or on a free-tier service.
+=======
 ## 1. Project Setup
 
 - **Framework**: Use Phaser for rendering and game logic.
@@ -36,6 +37,7 @@ This project is intended as a quick hobby experiment. To keep costs at zero, the
 
 - Host the client via a static site (e.g., GitHub Pages).
 - If multiplayer is used, run the server locally or explore free hosting tiers.
+- Deploy server to a small cloud instance or container.
 - Continuously test the multiplayer experience with friends and gather feedback.
 
 ---
